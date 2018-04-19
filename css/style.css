@@ -1,3 +1,33 @@
+body { 
+	font-family: 'Avenir', sans-serif;
+	background-color: #FDF1DC;
+}
+
+header {
+	background-image: url("../images/jabon.jpg");
+	background-size: cover; 
+	background-position: center center;
+	height: 400px;
+}
+
+h1 {
+	text-align: center;
+	padding-top:150px;
+	font-size: 4em;
+	color: brown;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 2em;
+	color: green;
+}
+
+p { 
+	margin-top: 20%; 
+	color: white;
+ }
+
 .row {
   display: flex;
 }
@@ -10,7 +40,6 @@
   margin: 40px;
   padding: 10px;
   background-color: #8EE174;
-  font-family: helvetica bold; 
 }
 
 .row div img {
@@ -18,53 +47,7 @@
   width: 150px;
 }
 
-body { 
-
-background-color: #FDF1DC;
-
- }
-
-header {
-	background-image: url("../images/jabon.jpg");
-	background-size: cover; 
-	background-position: bottom center;
-	height:30%;
-	width:100%; 
-
-}
-
-h1 {
-	margin-top: -3%;  
-font-size: 11.25em;
-font-family: helvetica bold; 
-color: #60430F; 
-text-align: center; 
-
-}
-
-h3 {
-
-font-size: 2em;
-color: green;
-
-
-}
-
-p { 
-	font-family: helvetica bold;
-	margin-top: 20%; 
-	color: white;
- }
-
-#banner { 
-background-image: url(../images/cosa.jpg)
-background-size: cover;
-background-position: bottom center;
-height: 40%; 
-width: 100%; 
-}
-
-ul li{
+ul li {
 	display: inline-block; 
 	color: white;
 	text-align: center; 
@@ -74,62 +57,38 @@ ul li{
 	margin: 0%;
 	padding: 0%;  
 	padding-right: 7%;  
-
 }
 
 footer {
-
 	background-color: #8EE174;
 	font-size: 1em; 
 	text-align: right;
 }
+
 nav { 
-margin-top: 2%;
-margin-bottom: 8%
-margin-right:20%;
-margin-left:0.01%;
-text-align: center; 
-background-color: #8EE174;
-border: 50%;
-font-size: 2em;
-height:60%;
+	margin-bottom: 8%
+	margin-right:20%;
+	margin-left:0.01%;
+	text-align: center; 
+	background-color: #8EE174;
+	border: 50%;
+	font-size: 2em;
+	height:60%;
 	width:100%;
-
-
 }
 
 li a:hover {
 	background-color: #green; 
 	 width: 40%; 
-
 }
 
-a{ 
-text-decoration: none; 
-color: green; 
-font-size: 1em;
-font-family: mitral;
-
- }
-
- a:hover { 
- color:grey; 
- width: 30%; 
+a { 
+	text-decoration: none; 
+	color: green; 
+	font-size: 1em;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+a:hover { 
+	 color:grey; 
+	 width: 30%; 
+}
